@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Complete Bootstrap 4 Website Layout</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+    <!-- Navigation -->
+    <div class="=home">
+        <nav class="navbar navbar-expand-md navbar-dark" fixed-top>
+            <a href="index.html" class="logo">
+                <i class="fas fa-utensils fa-3x" style="color: white ; margin-left: 1rem"></i>
+            </a>
+            <button class="toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="list navbar-nav ml-auto ">
+                    <li class="list-item nav-item">
+                        <a class="nav-link" href="#" style="color: white"><b>Home</b></a>
+                    </li>
+                    <li class="list-item nav-item">
+                        <a class="nav-link" href="#" style="color: white"><b>Courses</b></a>
+                    </li>
+                    <li class="list-item nav-item">
+                        <a class="nav-link" href="#" style="color: white"><b>Portfolio</b></a>
+                    </li>
+                    <li class="list-item nav-item">
+                        <a class="nav-link" href="#" style="color: white"><b>Gallery</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4">First Slide</h2>
+                    <p class="lead">This is a description for the first slide.</p>
+                </div>
+            </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Second Slide</h2>
+                    <p class="lead">This is a description for the second slide.</p>
+                </div>
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Third Slide</h2>
+                    <p class="lead">This is a description for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--- Image Slider -->
+    <div class="=course">
+        <div class="description">
+            <h1>Bootstrap Tutorial</h1>
+            <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+                responsive, mobile-first projects on the web.</p>
+        </div>
+        <div class="row">
+            <div class="card " style="width: 18rem;">
+                <div class="card-body"><i class="fas fa-graduation-cap fa-6x"></i></div>
+                <div>
+                    <h5 class="card-title">Card title</h5>
+                </div>
+                <div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div> <a href="#" class="btn btn-primary" style="margin-top: 1rem">Go somewhere</a></div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <div class="card-body"><i class="fas fa-graduation-cap fa-6x"></i></div>
+                <div>
+                    <h5 class="card-title">Card title</h5>
+                </div>
+                <div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div> <a href="#" class="btn btn-primary" style="margin-top: 1rem">Go somewhere</a></div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <div class="card-body"><i class="fas fa-graduation-cap fa-6x"></i></div>
+                <div>
+                    <h5 class="card-title">Card title</h5>
+                </div>
+                <div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div> <a href="#" class="btn btn-primary" style="margin-top: 1rem">Go somewhere</a></div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <div class="card-body"><i class="fas fa-graduation-cap fa-6x"></i></div>
+                <div>
+                    <h5 class="card-title">Card title</h5>
+                </div>
+                <div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div> <a href="#" class="btn btn-primary" style="margin-top: 1rem">Go somewhere</a></div>
+            </div>
+        </div>
+
+        <!--- Jumbotron -->
+        <div class="=portfolio " style="margin-bottom: 5rem">
+            <h2 style="margin-top: 4%;color: white; text-align: center">Gallery</h2>
+        <div class="gallery">
+            <div class=img1>
+        <img  style="border-radius: 50%"src="https://source.unsplash.com/random/200x200"/>
+            </div>
+            <div class=img1>
+        <img  style="border-radius: 50%" src="https://source.unsplash.com/random/201x200"/>
+            </div>
+            <div class=img1>
+        <img  style="border-radius: 50%" src="https://source.unsplash.com/random/202x200"/>
+            </div>
+            <div class=img1>
+        <img  style="border-radius: 50%" src="https://source.unsplash.com/random/203x200"/>
+            </div>
+            </div>
+            <div class="gallery">
+        <div class=img1>
+        <img  style="border-radius: 50%" src="https://source.unsplash.com/random/204x200"/>
+            </div>
+            <div class=img1>
+        <img  style="border-radius: 50%" src="https://source.unsplash.com/random/205x200"/>
+            </div>
+            <div class=img1>
+        <img style="border-radius: 50%"  src="https://source.unsplash.com/random/208x200"/>
+            </div>
+            <div class=img1>
+        <img style="border-radius: 50%"  src="https://source.unsplash.com/random/209x200"/>
+            </div>
+            </div>
+<div class="gallery">
+        <div class=img1>
+        <img  style="border-radius: 50%" src="https://source.unsplash.com/random/210x200"/>
+            </div>
+            <div class=img1>
+        <img  style="border-radius: 50%" src="https://source.unsplash.com/random/220x200"/>
+            </div>
+            <div class=img1>
+        <img style="border-radius: 50% ;"  src="https://source.unsplash.com/random/211x200"/>
+            </div>
+            <div class=img1>
+        <img style="border-radius: 50%"  src="https://source.unsplash.com/random/215x200"/>
+            </div>
+            </div>
+        </div>
+        </div>
+     
+
+
+
+</body>
+
+</html>
